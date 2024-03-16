@@ -1,0 +1,27 @@
+.background{
+background-color:#82b29a;
+margin:auto;
+width:640px;
+height:360px;
+border-radius:30px;
+}
+.title{
+font-style:helvetica;
+font-size:15px;
+position: relative;
+top: 120px; left: 260px;
+color:#3c405b;
+text-shadow: 1px 1px 1px black;
+}
+
+.knopka{
+border-radius:15px;
+background-color:#e07a5d;
+position:relative;
+top: 140px; left: 160px;
+width: 300px; height: 70px;
+border: none;
+box-shadow: 4px 4px 4px rgba(74, 149, 104, 0.862);
+font-size:30px;
+color:#f5f1de;
+}
