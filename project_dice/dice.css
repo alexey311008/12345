@@ -1,27 +1,36 @@
 .background{
-background-color:#82b29a;
-margin:auto;
-width:640px;
-height:360px;
-border-radius:30px;
-}
+    position: absolute;
+    background-color:#82b29a;
+    margin:auto;
+    padding:auto;
+    width:90%;
+    height:90%;
+    border-radius:30px;
+    transform: translate(+5%,+3.5%);
+    }
+
 .title{
-font-style:helvetica;
-font-size:15px;
-position: relative;
-top: 120px; left: 260px;
-color:#3c405b;
-text-shadow: 1px 1px 1px black;
+    font-style:helvetica;
+    font-size:15px;
+    position: relative;
+    text-align: center;
+    color:#3c405b;
+    text-shadow: 1px 1px 1px black;
+    }
+    
+.knopka{
+    font-style:helvetica;
+    border-radius:15px;
+    background-color:#e07a5d;
+    width: 300px; height: 70px;
+    border: none;
+    box-shadow: 4px 4px 4px rgba(74, 149, 104, 0.862);
+    font-size:30px;
+    color:#f5f1de;
 }
 
-.knopka{
-border-radius:15px;
-background-color:#e07a5d;
-position:relative;
-top: 140px; left: 160px;
-width: 300px; height: 70px;
-border: none;
-box-shadow: 4px 4px 4px rgba(74, 149, 104, 0.862);
-font-size:30px;
-color:#f5f1de;
+.button-n-text{
+    transform: translate(-50%, -50%);
+    position:absolute;
+    top: 50%; left: 50%;
 }
