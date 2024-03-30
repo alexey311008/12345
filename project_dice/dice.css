@@ -1,4 +1,4 @@
-.background{
+.box{
     position: absolute;
     background-color:#82b29a;
     margin:auto;
@@ -9,7 +9,7 @@
     transform: translate(+5%,+3.5%);
     }
 
-.title{
+.header{
     font-style:helvetica;
     font-size:15px;
     position: relative;
@@ -18,7 +18,7 @@
     text-shadow: 1px 1px 1px black;
     }
     
-.knopka{
+.start-button{
     font-style:helvetica;
     border-radius:15px;
     background-color:#e07a5d;
