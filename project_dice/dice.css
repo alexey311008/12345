@@ -7,6 +7,7 @@
     height:90%;
     border-radius:30px;
     transform: translate(+5%,+3.5%);
+    display:none;
     }
 
 .header{
@@ -17,7 +18,7 @@
     color:#3c405b;
     text-shadow: 1px 1px 1px black;
     }
-    
+
 .start-button{
     font-style:helvetica;
     border-radius:15px;
@@ -28,9 +29,72 @@
     font-size:30px;
     color:#f5f1de;
 }
-
 .button-n-text{
     transform: translate(-50%, -50%);
     position:absolute;
     top: 50%; left: 50%;
+}
+.box2{
+    background-color:#82b29a;
+    position:absolute;
+    margin:auto;
+    padding:auto;
+    width:90%;
+    height:90%;
+    border-radius:30px;
+    transform: translate(+5%,+3.5%);
+    }
+
+.header2{
+    font-style:helvetica;
+    font-size:50px;
+    font-weight: 100;
+    position: relative;
+    text-align: center;
+    margin:auto;
+    color:#3c405b;
+    text-shadow: 1px 1px 1px black;
+    z-index: 2;
+}
+.position-dice{
+    transform: translate(-50%, -50%);
+    position:absolute;
+    top: 50%; left: 50%;
+}
+
+.dice{
+    width:120px;
+    height:120px;
+    transform: translate(-50%, -50%);
+    position:absolute;
+    top: 50%; left: 50%;
+}
+.count-of-dice{
+    background-color:#E07A5D;
+    position:absolute;
+    border-radius:30px;
+    width:30px;
+    height:300px;
+    padding:auto;
+    margin-left:80px;
+    margin-top:140px;
+
+}
+.polzunok{
+    background-color:#3c405b;
+    width:30px;
+    height:30px;
+    border-radius:30px;
+}
+.start-button2{
+    font-style:helvetica;
+    border-radius:15px;
+    background-color:#e07a5d;
+    width: 100px; height: 70px;
+    border: none;
+    box-shadow: 4px 4px 4px rgba(74, 149, 104, 0.862);
+    font-size:30px;
+    color:#f5f1de;
+    margin-left:540px;
+    margin-top:300px;
 }
