@@ -90,12 +90,44 @@
     transform:translate(0,-50%);
 
 }
-.polzunok{
-    background-color:#3c405b;
-    width:30px;
-    height:30px;
-    border-radius:30px;
-}
+.slidecontainer {
+    width: 100%; /* Width of the outside container */
+    transform:rotate(90deg);
+
+  }
+  
+  /* The slider itself */
+  .slider {
+    -webkit-appearance: none;  /* Override default CSS styles */
+    appearance: none;
+    width: 300px; /* Full-width */
+    height: 25px; /* Specified height */
+    background:transparent;
+    outline: none; /* Remove outline */
+    opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+    -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+    transition: opacity .2s;
+
+  }
+  
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px; 
+    background: #3c405b;
+    cursor: pointer;
+  }
+  
+  .slider::-moz-range-thumb {
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    background: #3c405b;
+    cursor: pointer;
+  }
+
 .start-button2{
     font-style:helvetica;
     border-radius:15px;
