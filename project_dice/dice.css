@@ -79,6 +79,18 @@
     display:block;
     margin:30px;
 }
+.dice2{
+    width:120px;
+    height:120px;
+    display:none;
+    margin:30px;
+}
+.dice3{
+    width:120px;
+    height:120px;
+    display:none;
+    margin:30px;
+}
 .count-of-dice{
     background-color:#E07A5D;
     border-radius:30px;
